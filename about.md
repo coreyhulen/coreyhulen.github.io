@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+banner_url: /assets/banner_about.jpg
 ---
 
 Corey Hulen is Founder and CTO of Tempo AI. A SRI (Stanford Research Institute) 
