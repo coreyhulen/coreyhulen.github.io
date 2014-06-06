@@ -8,9 +8,9 @@ banner_url: /assets/banner_main.jpg
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
    <li>
-    <div class="post-header strap" style="background: url({{post.banner_url}}) 50% 50% / cover no-repeat #0d0501;">
-    <h1 style="color: white; background-color: rgba(50,50,50,0.5);"><a style="color: white" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h1>
-    <p style="color: white; background-color: rgba(50,50,50,0.5); margin: 0px; padding: 0px 0px 0px 3px" class="meta">{{ post.date | date: "%b %-d, %Y" }}
+    <div class="post-header strap" style="background: url({{post.banner_url}}) 50% 40% / cover no-repeat #0d0501;">
+    <h1 style="color: white; background-color: rgba(0,0,0,0.6);"><a style="color: white" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a></h1>
+    <p style="color: white; background-color: rgba(0,0,0,0.6); margin: 0px; padding: 0px 0px 0px 3px" class="meta">{{ post.date | date: "%b %-d, %Y" }}
     </p>
     </div>
     {{ post.excerpt }}
