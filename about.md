@@ -18,6 +18,9 @@ degree in computer science from California Polytechnical University.
 Patents (or Pending Patents)
 ----------------------------
 
+* 13566476 (8/1/2012) - Method and Apparatus for Enhancing a Calendar View on a Device
+* 13/353237 (1/1/2012) - System & Method for Supporting Natural Language Queries and Requests Against a User’s Personal Data Cloud
+* 13/287985 (11/1/2011) - Tools And Techniques For Extracting Knowledge From Unstructured Data Retrieved From Personal Data Sources
 * 7546549 (6/9/2009)- Constrained creation of data hierarchies
 * 7440978 (10/21/2008) - Method and system for synchronizing multiple user revisions, updating other strategy maps in the databases that are associated with the balanced scorecard
 * 20090228485 (9/10/2009) - Navigation across datasets from mltiple data sources based on common reference dimension
@@ -51,9 +54,6 @@ Patents (or Pending Patents)
 * 20060271583 (11/30/2006) - Dimension member sliding in online analytical processing
 * 20060161596 (7/20/2006) - Method and system for synchronizing multiple user revisions to a balanced scorecard
 * 20060161471 (7/20/2006) - System and method for multi-dimensional average-weighted banding status and scoring
-* 13/287985 (11/1/2011) - Tools And Techniques For Extracting Knowledge From Unstructured Data Retrieved From Personal Data Sources
-* 13/353237 (1/1/2012) - System & Method for Supporting Natural Language Queries and Requests Against a User’s Personal Data Cloud
-* 13566476 (8/1/2012) - Method and Apparatus for Enhancing a Calendar View on a Device
 
 Books
 -----
