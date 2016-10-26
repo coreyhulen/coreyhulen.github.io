@@ -6,9 +6,9 @@ date: '2010-10-03T00:00:00-07:00'
 The tests were performed over several days in Sept 2010 with Cassandra 0.6.2 
 utilizing the supplied contrib/py_stress tests.
 
-![Read TPS](/assets/perf_test1.png)
+![Read TPS](/images/cassreadperf1.png)
 
-![Write TPS](/assets/perf_test2.png)
+![Write TPS](/images/casswriteperf1.png)
 
 ** Inconclusive results because of slow EBS drive
 
