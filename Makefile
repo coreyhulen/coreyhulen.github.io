@@ -4,7 +4,9 @@ all: run
 
 install:
 	@echo Installing
-	gem install github-pages
+	brew install ruby
+	sudo gem install bundler jekyll jekyll-sitemap jekyll-feed
+	sudo gem install github-pages
 
 
 run:
