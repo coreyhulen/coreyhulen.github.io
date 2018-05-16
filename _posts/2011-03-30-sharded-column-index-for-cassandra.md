@@ -3,14 +3,13 @@ layout: post
 title: Sharded Column Index for Cassandra
 date: '2011-03-30T00:00:00-07:00'
 ---
-Description
 Eindex is a module for sharding column based indexes. With a similar schemeof 
 how Cassandra shards row keys we decided to shard column keys. With this 
 scheme you can still use the Cassandra Random Partitioner and get range queries 
 for keys. Our goal is to support 100’s of millions of keys across a Cassandra 
 cluster.
 
-###How it Works
+### How it Works
 
 For the simple case lets consider the index keys to be uniquie (or mostly 
 unique) and the value for each key is 1000 + key. Lets say we want to index 
@@ -46,7 +45,7 @@ transulate into another Cassandra query. There is anoptimization where if the
 index key has only 1 value (like a primary key) then thereisn’t any extra 
 query to Cassandra.
 
-###Notes and Limitations
+### Notes and Limitations
 
 * The automated sharding isn’t complete. You must prepopulate the shards by 
 calling initializeShardBoundries.

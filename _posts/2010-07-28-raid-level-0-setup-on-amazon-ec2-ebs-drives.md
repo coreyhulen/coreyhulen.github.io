@@ -85,7 +85,7 @@ Next lets verify the drive is operation
 ~$ df -h /raiddrive
 {% endhighlight %}
 
-###Drive removal
+### Drive removal
 
 If you wish to remove the drive run the follow commands
 

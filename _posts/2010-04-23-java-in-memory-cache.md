@@ -3,6 +3,7 @@ layout: post
 title: Java in Memory Cache
 date: '2010-04-23T00:00:00-07:00'
 ---
+
 Lets look at creating and using a simple thread-safe Java in-memory cache. It 
 would be nice to have a cache that can expire items from the cache based on a 
 time to live as well as keep the most recently used items. Luckily the apache 

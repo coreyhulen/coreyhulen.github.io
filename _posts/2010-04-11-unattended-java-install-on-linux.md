@@ -3,6 +3,7 @@ layout: post
 title: Unattended Java Install on Linux
 date: '2010-04-11T00:00:00-07:00'
 ---
+
 When building and configuring Amazon EC2 instances I find myself
 needing to install the Sun Java 6 runtime and/or the JDK unattended. 
 This is sometimes referred to as non-interactive or headless install. 

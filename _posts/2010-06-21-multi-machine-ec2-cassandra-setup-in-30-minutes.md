@@ -15,7 +15,7 @@ our unattended install scripts works please review my previous post.
 Setup The First Node
 --------------------
 
-###Step 1 - Create the Instance
+### Step 1 - Create the Instance
 
 We are going to setup the first box in the Cassandra cluster utilizing the 
 supplied scripts in the download section. For testing we have included a 
@@ -38,7 +38,7 @@ Notice, when the script completes you are logged into the remote instance.
 For a detailed description of what setup_box.sh script does please 
 see my previous post located here.
 
-###Step 2 - Modify storage-config.xml
+### Step 2 - Modify storage-config.xml
 
 On the remote machine First Node run the hostname command to grab the remote 
 machines host name.
@@ -55,7 +55,7 @@ new nodes added to the cluster. For a more robust production enviroment you
 might map an elastic IP address to the seed node alleviating the need for 
 using an internal private Amazon hostname.
 
-###Step 3 - Start Cassandra
+### Step 3 - Start Cassandra
 
 Start Cassandra by running the following command
 
@@ -73,7 +73,7 @@ You can verify Cassandra is up and running by issuing the following command
 ubuntu@domU-33-31-92-0B-22-21:~$ ./bin/nodetool info -h localhost
 {% endhighlight %}
 
-###Step 4 - Install Munin Server (Optional Step)
+### Step 4 - Install Munin Server (Optional Step)
 
 We will setup the First Node to monitor the entire cluster. In a true 
 production enviroment we would recommend running the Munin server on a 
@@ -105,7 +105,7 @@ from `<AutoBootstrap>false</AutoBootstrap>` to 
 `<AutoBootstrap>true</AutoBootstrap>`. This is only necessary if the cluster 
 already has data in it otherwise the default is fine.
 
-###Step 1 - Create the Instance
+### Step 1 - Create the Instance
 
 From a local command prompt issue the following command with the modified 
 storage-conf.xml from step 2 above.
@@ -115,7 +115,7 @@ ubuntu@localmachine:~$./setup_box.sh -p YourPemKeyFile.pem -s 40 \
    cassandra.sh storage-conf.xml
 {% endhighlight %}
 
-###Step 2 - Start Cassandra
+### Step 2 - Start Cassandra
 
 Start Cassandra by running the following command
 
@@ -137,7 +137,7 @@ Address          Status  Load         Range        Ring
 
 Notice both machine are in the cluster as evidence by the ring command.
 
-###Step 4 - Install Munin Node Monitoring (Optional Step)
+### Step 4 - Install Munin Node Monitoring (Optional Step)
 
 In this step we will show you how to configure the Second Node to report it’s 
 monitoring data to the Munin server or in our case the First Node. Remember in 
@@ -197,7 +197,7 @@ If you click on the day link you should see something like
 
 ![Munin Graph](/assets/munin2.png)
 
-###Setup The Third Node
+### Setup The Third Node
 
 For the Third Node I repeated the steps from the Second Node. Once the First 
 Node is completed and running you can repeat the Second Node steps as many 
@@ -206,7 +206,7 @@ in parallel meaning I can add the Forth Node and Fifth Node at the same time
 in parallel.  You are ready to Rock! Connect a client to any node and start 
 inserting/reading data from your Cassandra cluster.
 
-###Setup and Run the Basic Stress Test
+### Setup and Run the Basic Stress Test
 
 To see some more interesting results lets run the Cassandra stress tool 
 against the 3 node cluster. For simplicity I’ll run the stress script on the 
@@ -216,7 +216,7 @@ on the Thrid Node will skew the results and isn’t a true measure of performanc
 but we want to demonstarte how it can be done without needing to spin up more 
 instances. Go ahead and login to the Thrid Node remote instance.
 
-###Step 4 - Install Thrift complier
+### Step 4 - Install Thrift complier
 
 First we need to download, build, and install the thrift complier because we 
 need the python bindings. Run the following commands.
@@ -298,7 +298,7 @@ ubuntu@domU-33-31-92-0B-22-26:~$ python stress.py --operation read --num-keys \
    2000000 --nodes 10.254.58.113,10.254.58.114,10.254.58.115
 {% endhighlight %}
 
-###Backing Up your Cluster
+### Backing Up your Cluster
 
 The install scripts configure the system with some basic backup and snapshot 
 scripts. Look at the files created in ~/cron. You can also do a crontab -l to 

@@ -3,6 +3,7 @@ layout: post
 title: Simple Java Performance Counters
 date: '2010-04-16T00:00:00-07:00'
 ---
+
 There doesn’t seem to be a whole lot of open source options for 
 Java performance counters.  Since I found it frustrating and 
 rolled my own I decided to share my work so others could just 

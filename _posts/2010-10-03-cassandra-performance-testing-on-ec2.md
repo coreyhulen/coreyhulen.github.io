@@ -3,6 +3,7 @@ layout: post
 title: Cassandra Performance Testing on EC2
 date: '2010-10-03T00:00:00-07:00'
 ---
+
 The tests were performed over several days in Sept 2010 with Cassandra 0.6.2 
 utilizing the supplied contrib/py_stress tests.
 
