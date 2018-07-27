@@ -6,6 +6,8 @@ date: '2018-07-24T00:00:00-07:00'
 
 Below is a list of things I've noticed that annoy me during video conferencing.  Working at a remote company, we spend almost all of our meeting time in video calls vs in person meetings, and people can do annoying things.  I won't lie, I'm probably one of the worst offenders for some of these items.
 
+Have you been annoyed by the following list?
+
 1. Responding to messages in chat while you are talking with them.  Nothing is more distracting than when someone tries to "covertly" respond to a message.  First, it wasn't that covert, I can hear your keyboard and notice you're looking somewhere else. Second, I'm in the same channel as you, I can see the messages `You're typing...`.  Solution:  If you often feel the need to respond immediatly and get easily distracted, set yourself to "Do not distrub" mode while in a meeting.
 
 1. Asnwering calls or checking text messages on your cell phone.  If your house is burning down, I'm sure they'll call back.  Yes, I can see you responding to texts, your phone isn't quite out of the frame, and you're looking at you lap.  Solution: Put your phone on silent and place it out of arms reach, face down, so you don't feel compelled to act.
