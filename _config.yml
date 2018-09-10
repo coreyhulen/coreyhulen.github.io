@@ -47,6 +47,8 @@ url: hulen.com
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+include: ['_pages']
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #

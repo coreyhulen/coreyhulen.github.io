@@ -51,3 +51,9 @@ Books
 
 The Rational Guide to Monitoring and Analyzing with Microsoft Office 
 PerformancePoint Server 2007 - Technical Editor
+
+Speaking Engagements
+--------------------
+
+* Open Source Summit (8/29/2018) - Lessons learned building software with a fully remote team - We have learned quite a few lessons about communication tools and how to get work done from our experience of working with hundreds of customers who use Mattermost, an open source messaging workspace, and a distributed team of 50 with hundreds of additional contributors all working remotely. I’ll share several examples of good and suboptimal communication working with remote teams and the infrastructure and tools we found help us, our contributors and our users become more effective teams and provide clarity in their work.
+* Community Leadership Summit (7/14/2018) - How to optimize real-time communication in OSS and Community - While email threads, comments on pull requests and IRC have been the norm for communication between developer and open source communities, real-time messaging is becoming increasingly popular. Let’s discuss the good, bad and best practices of chat.
