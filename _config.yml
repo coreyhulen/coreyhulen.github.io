@@ -49,6 +49,18 @@ baseurl: ""
 
 include: ['_pages']
 
+collections:
+  teaching:
+    permalink: "/:collection/:path/"
+    output: "true"
+
+defaults:
+  - scope:
+      path: ""
+      type: "manual"
+    values:
+      layout: "single"
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
@@ -76,8 +88,11 @@ gems:
 
 # Exclude these files from your production _site
 exclude:
+  - Makefile
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
   - CNAME
+  - _teaching/README.md
+  - _teaching/LICENSE
