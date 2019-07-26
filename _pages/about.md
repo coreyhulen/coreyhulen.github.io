@@ -4,7 +4,15 @@ title: About
 permalink: /about/
 ---
 
-**Corey Hulen is CTO & Co-founder of Mattermost**, and previously founded Tempo AI, a machine intelligence startup spun off from Stanford Research Institute, where he served as an Entrepreneur-in-Residence. Tempo AI raised $12.5M in financing, led by Sierra Ventures and Relay Ventures, and released a popular mobile smart calendaring application in 9 languages and 26 countries before being bought by Salesforce.com for Tempo’s industry-leading platform. Before then, Corey served as engineering manager and architect for Microsoft Office in its enterprise software business across SharePoint and Business Intelligence product lines. Prior he was an architect for VerticalNet, a publicly-traded enterprise software company providing supply chain management solutions for the Global 2000. Corey is an alumnus of California Polytechnic State University.
+**Corey Hulen is the CTO and co-founder of Mattermost, Inc.**, creators of the open source enterprise messaging workspace built for privacy-conscious organizations. Prior to Mattermost, he founded Tempo AI, a machine intelligence startup spun out from Stanford Research Institute, which was acquired by Salesforce.com. Before that, Corey served as an engineering manager and architect for Microsoft Office in its enterprise software business across the SharePoint and Business Intelligence product lines. He is an alumnus of California Polytechnic State University.
+
+**Speaker Profile**
+Twitter Handle: @corey_hulen
+Github Handle: coreyhulen
+Company: Mattermost, Inc.
+Company Website: https://mattermost.com/
+Personal Website: http://hulen.com/
+Profile Picture: [here](http://hulen.com/images/coreyhulen_headshot.jpg)
 
 Patents (or Pending Patents)
 ----------------------------
